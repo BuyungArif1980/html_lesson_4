@@ -24,9 +24,12 @@ li {
 
 .flex-list {
   display: flex;
+  /* Tetapkan flex-wrap */
+  flex-wrap: wrap;
 }
 
-/* Tetapkan property flex di element .flex-list li */
 .flex-list li {
   flex: auto;
+  /* Tetapkan width ke 50% */
+  width: 50%;
 }
