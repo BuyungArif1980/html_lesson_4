@@ -21,7 +21,12 @@ li {
 .li4 {
   background-color: #88e7ce;
 }
-/* tentukan property display milik .flex-list */
+
 .flex-list {
   display: flex;
+}
+
+/* Tetapkan property flex di element .flex-list li */
+.flex-list li {
+  flex: auto;
 }
