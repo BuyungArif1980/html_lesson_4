@@ -24,12 +24,22 @@ li {
 
 .flex-list {
   display: flex;
-  /* Tetapkan flex-wrap */
-  flex-wrap: wrap;
 }
-
 .flex-list li {
   flex: auto;
-  /* Tetapkan width ke 50% */
-  width: 50%;
+}
+
+/* Layout untuk Tablet */
+/* Tetapkan media queries dengan breakpoint sebagai 1000px dan lebih kecil */
+@media (max-width: 1000px) {
+  /* Tetapkan flex-wrap milik .flex-list */
+  .flex-list {
+    flex-wrap: wrap;
+  }
+
+  /* Tetapkan nilai width dari .flex-list li ke 50% */
+  .flex-list li {
+    width: 50%;
+  }
+
 }
